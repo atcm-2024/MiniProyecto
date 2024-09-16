@@ -1,0 +1,351 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*background-color: hsl(235, 18%, 26%);*/
+
+.div-mobile-principal{
+    background-color: #ddd
+}
+
+.div-margen-info{
+    margin-top: 175px;
+    margin-left: 14x;
+    background-color: white;
+    justify-content: left;
+}
+
+.div-margen-msj{
+    margin-right: 70px;
+    background-color: #ddd;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.list-message{
+    font-size: 12px;
+    list-style: none;
+}
+
+.imagen{
+    border-radius: 1px;
+}
+
+li{
+    margin-bottom: 10px;
+    font-family: 13px;
+}
+
+.anuncio{
+    font-size: 13px;
+    margin-top: 14px;
+}
+
+.div-info{
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.title-info{
+    text-align: left;
+}
+
+.img-list{
+    margin-right: 10px;
+}
+
+.email{
+    width: 250px;
+    height: 45px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 18px;
+    border-radius: 7px;
+    font-size: 11px;
+    border: solid 1px  hsl(231, 7%, 60%);
+    text-align: left;
+}
+
+.error-email{
+    font-size: 10px;
+    font-weight: bold;
+    width: 45%;
+    text-align:right;
+    margin-left: 70px;
+}
+
+.sp-email{
+    font-size: 10px;
+    font-weight: bold;
+    width: 85px;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+}
+
+.btn1{
+    width: 250px;
+    height: 45px;
+    border-radius: 7px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    font-size: 11px;
+}
+
+/********************** para la pagina de entra a email Mobile *********************** */
+#section-mobile{
+    justify-content: right;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.div-mensaje-mobile{
+    margin-top: 0;
+    background-color: white;
+}
+
+.div-img-sucess-mobile{
+    width: 100%;
+}
+
+.titulo-mobile{
+    font-size: 44px;
+    font-weight: 700;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.p-mobile{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.submitted-email-mobile{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.btn-dismissMob{
+    margin-top: 325px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 20px;
+    width: 250px;
+    border-radius: 5px;
+    height: 45px;
+    background-color: hsl(234, 29%, 20%);
+    font-size: 12px;
+    color: white;
+}
+/***********************************************
+    ***** Para la versión de desktop ******
+
+    */
+
+.div-principal-desktop{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(235, 18%, 26%);
+}
+
+.div-content-info-desktop{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.div-desc-desktop{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  
+}
+
+.div-img-desktop{
+    margin: 5px;
+    padding: 0;
+    margin-top: 12px;
+    padding-top: 12px;
+    padding-left: 10px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.div-info-desktop{
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 1px;
+}
+
+.div-interno{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.titulo{
+    font-size: 34px;
+    margin-left: 25px;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+
+.p-info{
+    font-size: 11px;
+    margin-left: 25px;
+    width: 100%;
+}
+
+.list-anuncio{
+    font-size: 11px;
+    margin-left: 25px;
+    width: 100%;
+}
+
+.img-list1{
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+} 
+
+.emailEnviar{
+    margin-left: 25px;
+    width: 240px;
+    height: 40px;
+    border-radius: 7px;
+    border: solid 1px  hsl(231, 7%, 60%);
+    font-size: 11px;
+}
+
+.sp-email-msj{
+    font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+    width: 50%;
+    margin-left: 25px;
+}
+
+.sp-msj-error{
+    font-size: 11px;
+    font-weight: bold;
+    text-align: right;
+    width: 50%;
+    color:tomato;
+    margin-left: 70px;
+}
+
+.btnsuscribe{
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 240px;
+    height: 40px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    font-size: 11px;
+    border-radius: 7px;
+}
+
+/* secciones desktop*/
+#section-desktop{
+    background-color: hsl(235, 18%, 26%);
+}
+
+/*  clase modal para desktop */
+.modal{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_content{
+    background-color: white;
+    width: 20%;
+    height: 55%;
+    min-width: 310px;
+    height: 320px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.p-modal{
+    margin-left:35px;
+    margin-right:35px;
+    font-size: 10px;
+}
+
+.div-modal-img{
+    justify-content: start;
+    width: 100%;
+    height: 30%;
+}
+
+.div-modal-contenido{
+    width: 100%;
+    height: 70%;
+}
+
+.div-modal-contenido > h2{
+    font-size: 34px;
+    font-weight: 700;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+
+.icon-modal{
+    width: 38px;
+    height: 38px;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.dismiss-btn{
+    margin-left: 35px;
+    margin-top: 15px;
+    color: white;
+    background-color: #252850;
+    font-size: 10px;
+    width: 235px;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* para los email */
+.invalid{
+    color: tomato;
+    font-size: 11px;
+}
+
+/* --- ocultar */
+
+.mostrar_todo{
+    display: none;
+}
+.modal.mostrar_todo {
+    display: flex;
+}
