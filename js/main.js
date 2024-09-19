@@ -1,6 +1,6 @@
 const form = document.querySelector("#form-mobile"); ////formulario mobile
 const modalmobile = document.querySelector("#section-mobile")///modal
-
+const inputmobile=document.querySelector("#email")
 form.addEventListener("submit", abrirmodal);
 
 function abrirmodal(e) {
@@ -20,6 +20,8 @@ function abrirmodal(e) {
   else
   {
     errorEmailM.style.visibility='visible';
+    inputmobile.classList.add("rojoalerta")
+
     /*errorEmailM.innerHTML="Valid email required";*/
   }
   form.reset()

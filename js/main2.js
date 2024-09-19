@@ -1,6 +1,9 @@
 const formi = document.querySelector("#form-desktop");
 const modal =document.querySelector("#section_des")
 
+const inputdesktop=document.querySelector("#emailEnviar")
+console.log(inputdesktop)
+
 formi.addEventListener("submit", abrirmodalD);
 
 function abrirmodalD(e) {
@@ -21,6 +24,8 @@ function abrirmodalD(e) {
   else
    {
     msj_error.style.visibility='visible';
+    inputdesktop.classList.add("rojoalerta")
+    console.log(inputdesktop)
    }
    formi.reset()
 }
